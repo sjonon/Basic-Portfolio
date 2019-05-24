@@ -130,8 +130,19 @@ section {
     width: 960px;
     background-color: #ffffff;
     padding: 20px;
+    display: flex;
 }
 
+h6 {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #eee;
+    width: 100px;
+}
+
+div {
+    float: left;
+}
 #portfolio {
     color: #777777;
     background: #ffffff;
@@ -142,5 +153,9 @@ section {
     border-bottom-style: solid;
     border-width: 1px;
     margin-bottom: 20px;
+    clear: both;
+}
 
+.portfolio-section img {
+    z-index: -1;
 }
