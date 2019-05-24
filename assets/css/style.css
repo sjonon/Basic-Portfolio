@@ -61,7 +61,7 @@ h1 {
     margin-right: 50px;
 }
 
-img {
+#myphoto {
     float: left;
     margin: 0 20px;
     height: 208px;
@@ -156,6 +156,6 @@ div {
     clear: both;
 }
 
-.portfolio-section img {
+.portfolio-section.img {
     z-index: -1;
 }
