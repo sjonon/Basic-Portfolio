@@ -1,0 +1,84 @@
+html {
+    margin: 0;
+    background: url("../images/bright_squares.png");
+}
+
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+header {
+    width: 110%;
+    background-color: #ffffff;
+}
+
+footer {
+    width: 110%;
+    height: 75px;
+    background-color: #666666;
+    border-color: #4aaaa5;
+    border-top: 50px;
+    text-align: center; 
+    overflow: auto;
+}
+
+h1, h2, h6 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.topbar {
+    background: #ffffff;
+    width: 100%;
+    height: 100px;
+    margin: -10px;
+    overflow: hidden;
+}
+
+.topbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #777777;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #777777;
+    background-color: #ffffff;
+    margin-right: 50px;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    height: 208px;
+    width: 106px;
+
+}
+
+section {
+    width: 960px
+}
+.content {
+    clear: both;
+    background: #ffffff;
+    margin: 20px;
+}
+#name {
+    color: #eee;
+    background-color: #4aaaa5;
+    float: left;
+    margin-top:0;
+    margin-bottom:-10px;
+    padding: 20px;
+    font-size:30px;
+}
+#about {
+    color: #777777;
+    background: #eee;
+    float: none;
+}
